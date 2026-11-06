@@ -8,7 +8,7 @@
 
 **[qutrek.com](https://qutrek.com)** · **[map.qutrek.com](https://map.qutrek.com)**
 
-<a href="https://apps.apple.com/app/id6758816650"><img src="assets/app-store-badge.svg" height="40" alt="Download on the App Store"></a> <a href="https://play.google.com/store/apps/details?id=com.qutrek.app"><img src="assets/google-play-badge.png" height="60" alt="Get it on Google Play"></a>
+<a href="https://apps.apple.com/app/id6758816650"><img src="assets/app-store-badge.svg" height="40" alt="Download on the App Store"></a> <a href="https://play.google.com/store/apps/details?id=com.qutrek.app"><img src="assets/google-play-badge.png" height="40" alt="Get it on Google Play"></a>
 
 <img src="assets/architecture.svg" width="100%" alt="Qutrek architecture. Clients: iOS and Android app, map.qutrek.com, qutrek.com, admin console. Services: edge feature flags, the Qutrek API with job workers, self-hosted map tiles. Data: PostgreSQL, Redis, S3 storage, ClickHouse analytics, Firebase.">
 
@@ -21,7 +21,7 @@
 <h3><a href="https://frog.ps">FROG</a></h3>
 <p>Booking platform for barbers, nail studios, spas and makeup artists in Bethlehem and Beit Sahour. Customers see the times that are actually free, book in a few taps and pay at the shop.</p>
 <p><b>Designed and built:</b> booking API with location search and background workers, iOS and Android app, admin portal, website.</p>
-<p><a href="https://apps.apple.com/us/app/frog-ps/id6806606496"><img src="assets/app-store-badge.svg" height="40" alt="Download on the App Store"></a> <a href="https://play.google.com/store/apps/details?id=com.frog.ps"><img src="assets/google-play-badge.png" height="60" alt="Get it on Google Play"></a></p>
+<p><a href="https://apps.apple.com/us/app/frog-ps/id6806606496"><img src="assets/app-store-badge.svg" height="40" alt="Download on the App Store"></a> <a href="https://play.google.com/store/apps/details?id=com.frog.ps"><img src="assets/google-play-badge.png" height="40" alt="Get it on Google Play"></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://arc.ps"><img src="assets/arc-og.jpg" width="100%" alt="ARC, Abu Rumman Center"></a>
