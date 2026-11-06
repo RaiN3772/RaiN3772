@@ -109,7 +109,7 @@ Every project I take on runs on the same engineering platform: the standards, to
 
 ## By the numbers
 
-<img src="assets/impact.svg" width="100%" alt="4,713 commits since 2023 across 38 repositories. 1,882 contributions and 229 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,204, Abu Dayya Farm 522, Abu Dayya Butcher 134, ARC 492, FROG 221. Languages: TypeScript 63.7%, Dart 23.1%, CSS 5.3%, JavaScript 3.0%.">
+<img src="assets/impact.svg" width="100%" alt="4,756 commits since 2023 across 38 repositories. 1,913 contributions and 229 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,226, Abu Dayya Farm 522, Abu Dayya Butcher 134, ARC 500, FROG 221. Languages: TypeScript 63.8%, Dart 23.1%, CSS 5.3%, JavaScript 3.0%.">
 
 ## Toolbox
 
@@ -126,6 +126,7 @@ I fix the libraries my products run on.
 |---|---|
 | [**Expo**](https://github.com/expo/expo/pull/45096) · ⭐ 53.4k | Run the notifications foreground handler on the main thread, fixing an iOS 16 crash |
 | [**Expo**](https://github.com/expo/expo/pull/51955) · ⭐ 53.4k | Keep tab content mounted when `hidden` changes on Android (expo-router native tabs) |
+| [**MMKV (Tencent)**](https://github.com/Tencent/MMKV/pull/1693) · ⭐ 18.8k | Fix `importFrom()` into an encrypted instance freeing memory it doesn't own |
 | [**React Native Keyboard Controller**](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1695) · ⭐ 3.8k | Reset the keyboard offset once the keyboard fully closes in `KeyboardChatScrollView` |
 
 **Crashes I tracked down that maintainers fixed**
