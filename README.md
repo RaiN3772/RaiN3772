@@ -109,7 +109,7 @@ Every project I take on runs on the same engineering platform: the standards, to
 
 ## By the numbers
 
-<img src="assets/impact.svg" width="100%" alt="4,713 commits since 2023 across 38 repositories. 1,880 contributions and 229 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,204, Abu Dayya Farm 522, Abu Dayya Butcher 134, ARC 492, FROG 221. Languages: TypeScript 63.7%, Dart 23.1%, CSS 5.3%, JavaScript 3.0%.">
+<img src="assets/impact.svg" width="100%" alt="4,713 commits since 2023 across 38 repositories. 1,882 contributions and 229 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,204, Abu Dayya Farm 522, Abu Dayya Butcher 134, ARC 492, FROG 221. Languages: TypeScript 63.7%, Dart 23.1%, CSS 5.3%, JavaScript 3.0%.">
 
 ## Toolbox
 
