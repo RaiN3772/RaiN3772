@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Abu Dayya Farm: livestock operations, recorded in the barn, offline.">
+<defs><linearGradient id="fg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14231a"/><stop offset="1" stop-color="#26412c"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#fg)"/>
+<g fill="none" stroke="#c8e27e" stroke-opacity=".16" stroke-width="3"><path d="M880 250 L1020 150 L1160 250 V400 H880 Z"/><path d="M975 400 V310 H1065 V400"/><path d="M975 310 L1065 400 M1065 310 L975 400"/></g>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+<text x="96" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" fill="#c8e27e" letter-spacing="2">OFFLINE-FIRST · ARABIC · iOS · ANDROID · WEB</text>
+<text x="92" y="250" font-size="92" font-weight="800" fill="#eaf4f7" letter-spacing="-2">Abu Dayya Farm</text>
+<text x="96" y="318" font-size="32" fill="#93a9b3">Livestock operations, recorded in the barn.</text>
+<text x="96" y="362" font-size="32" fill="#93a9b3">Works with no signal and syncs later.</text>
+<rect x="96" y="430" width="176" height="46" rx="23" fill="#ffffff" fill-opacity=".08" stroke="#c8e27e" stroke-opacity=".45"/><text x="184.0" y="460" text-anchor="middle" font-size="22" fill="#eaf4f7">Herd count</text><rect x="286" y="430" width="146" height="46" rx="23" fill="#ffffff" fill-opacity=".08" stroke="#c8e27e" stroke-opacity=".45"/><text x="359.0" y="460" text-anchor="middle" font-size="22" fill="#eaf4f7">Weighing</text><rect x="446" y="430" width="101" height="46" rx="23" fill="#ffffff" fill-opacity=".08" stroke="#c8e27e" stroke-opacity=".45"/><text x="496.5" y="460" text-anchor="middle" font-size="22" fill="#eaf4f7">Moves</text><rect x="561" y="430" width="176" height="46" rx="23" fill="#ffffff" fill-opacity=".08" stroke="#c8e27e" stroke-opacity=".45"/><text x="649.0" y="460" text-anchor="middle" font-size="22" fill="#eaf4f7">Treatments</text><rect x="751" y="430" width="86" height="46" rx="23" fill="#ffffff" fill-opacity=".08" stroke="#c8e27e" stroke-opacity=".45"/><text x="794.0" y="460" text-anchor="middle" font-size="22" fill="#eaf4f7">Milk</text><rect x="851" y="430" width="116" height="46" rx="23" fill="#ffffff" fill-opacity=".08" stroke="#c8e27e" stroke-opacity=".45"/><text x="909.0" y="460" text-anchor="middle" font-size="22" fill="#eaf4f7">Losses</text>
+</g>
+</svg>
