@@ -42,9 +42,9 @@
 <td width="50%" valign="top">
 <img src="assets/farm-card.svg" width="100%" alt="Abu Dayya Farm">
 <h3>Abu Dayya Farm</h3>
-<p>Livestock operations for the family's farms. Herd counts, weighing, moves, treatments and milk are recorded in the barn with no signal, and sync when the phone is back online.</p>
+<p>Livestock operations for the family's farms. Herd counts, weighing, moves, treatments and milk are recorded in the barn with no signal, and sync when the phone is back online. Animals arriving by truck are received head by head into their barns, and every sales and purchase invoice is on the phone.</p>
 <p><b>Designed and built:</b> API, offline web app for the office, and an offline field app for iOS and Android built around tasks, icons and numbers.</p>
-<p><sub>Private system, used by the farm's own staff.</sub></p>
+<p><sub>Private system, in daily use by the farm's staff on iOS and Android.</sub></p>
 </td>
 </tr>
 <tr>
@@ -55,11 +55,11 @@
 <p><b>Designed and built:</b> the platform API and five apps: customer, branch app for restaurants, driver, admin panel, and customer support.</p>
 </td>
 <td width="50%" valign="top">
-<img src="assets/rita-card.svg" width="100%" alt="Rita point of sale">
-<h3>Rita</h3>
-<p>Point of sale for a service business. It handles services with variants and add-ons, prices that differ by staff member, commissions and payouts, staff schedules, and a loyalty program with rewards and birthday perks.</p>
-<p><b>Designed and built:</b> API with role-based permissions and a full audit log, receipts, reports, and the web app the front desk runs on.</p>
-<p><sub>Private system, used by the business's own staff.</sub></p>
+<img src="assets/rita-card.svg" width="100%" alt="Rita, salon point of sale">
+<h3>Rita · salon point of sale</h3>
+<p>A desktop till for a salon that runs the whole counter: services and products, prices per stylist, commissions and payouts, schedules, and a loyalty program. A second screen faces the client, showing the menu, a product shelf and a 3D prize wheel tuned to run smoothly on the salon's own hardware.</p>
+<p><b>Designed and built:</b> the API with role-based permissions and a full audit log, and the desktop app wired to the card terminal, receipt printer and client display, each with a live status light. It updates itself from a release pipeline, and the data is backed up encrypted every night.</p>
+<p><sub>Private system, in daily use at the salon.</sub></p>
 </td>
 </tr>
 </table>
@@ -109,7 +109,7 @@ Every project I take on runs on the same engineering platform: the standards, to
 
 ## By the numbers
 
-<img src="assets/impact.svg" width="100%" alt="4,756 commits since 2023 across 38 repositories. 1,913 contributions and 229 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,226, Abu Dayya Farm 522, Abu Dayya Butcher 134, ARC 500, FROG 221. Languages: TypeScript 63.8%, Dart 23.1%, CSS 5.3%, JavaScript 3.0%.">
+<img src="assets/impact.svg" width="100%" alt="5,666 commits since 2023 across 40 repositories. 2,662 contributions and 233 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,429, Abu Dayya Farm 676, Abu Dayya Butcher 134, ARC 502, FROG 221, Rita 608. Languages: TypeScript 63.8%, Dart 24.4%, CSS 4.9%, JavaScript 2.8%.">
 
 ## Toolbox
 
@@ -124,8 +124,8 @@ I fix the libraries my products run on.
 
 | Project | Change |
 |---|---|
-| [**Expo**](https://github.com/expo/expo/pull/45096) · ⭐ 53.4k | Run the notifications foreground handler on the main thread, fixing an iOS 16 crash |
-| [**Expo**](https://github.com/expo/expo/pull/51955) · ⭐ 53.4k | Keep tab content mounted when `hidden` changes on Android (expo-router native tabs) |
+| [**Expo**](https://github.com/expo/expo/pull/45096) · ⭐ 53.6k | Run the notifications foreground handler on the main thread, fixing an iOS 16 crash |
+| [**Expo**](https://github.com/expo/expo/pull/51955) · ⭐ 53.6k | Keep tab content mounted when `hidden` changes on Android (expo-router native tabs) |
 | [**MMKV (Tencent)**](https://github.com/Tencent/MMKV/pull/1693) · ⭐ 18.8k | Fix `importFrom()` into an encrypted instance freeing memory it doesn't own |
 | [**React Native Keyboard Controller**](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1695) · ⭐ 3.8k | Reset the keyboard offset once the keyboard fully closes in `KeyboardChatScrollView` |
 
@@ -133,12 +133,12 @@ I fix the libraries my products run on.
 
 | Project | Bug |
 |---|---|
-| [**Expo**](https://github.com/expo/expo/issues/44032) · ⭐ 53.4k | iOS crash in `ModuleRegistry.post(event:)` from unsynchronized dictionary access |
-| [**Expo**](https://github.com/expo/expo/issues/46106) · ⭐ 53.4k | `JavaScriptPromise.init` force-try traps the app on iOS (expo-modules-jsi) |
-| [**HeroUI**](https://github.com/heroui-inc/heroui/issues/6445) · ⭐ 31.1k | Table corners and pagination arrows render wrong in right-to-left layouts |
+| [**Expo**](https://github.com/expo/expo/issues/44032) · ⭐ 53.6k | iOS crash in `ModuleRegistry.post(event:)` from unsynchronized dictionary access |
+| [**Expo**](https://github.com/expo/expo/issues/46106) · ⭐ 53.6k | `JavaScriptPromise.init` force-try traps the app on iOS (expo-modules-jsi) |
+| [**HeroUI**](https://github.com/heroui-inc/heroui/issues/6445) · ⭐ 31.2k | Table corners and pagination arrows render wrong in right-to-left layouts |
 | [**VisionCamera**](https://github.com/margelo/react-native-vision-camera/issues/3916) · ⭐ 9.7k | iOS 26 crash in `capturePhoto` |
 | [**VisionCamera**](https://github.com/margelo/react-native-vision-camera/issues/3773) · ⭐ 9.7k | Race-condition crash in `HybridCameraSession.start()` |
-| [**React Native Video**](https://github.com/TheWidlarzGroup/react-native-video/issues/4844) · ⭐ 7.7k | iOS crash: `AVPlayer.replaceCurrentItem` called from background threads |
+| [**React Native Video**](https://github.com/TheWidlarzGroup/react-native-video/issues/4844) · ⭐ 7.8k | iOS crash: `AVPlayer.replaceCurrentItem` called from background threads |
 | [**Unistyles**](https://github.com/jpudysz/react-native-unistyles/issues/1169) · ⭐ 3k | Generated header name collides with other Nitro modules and breaks iOS builds |
 | [**Unistyles**](https://github.com/jpudysz/react-native-unistyles/issues/1179) · ⭐ 3k | Reproducible heap corruption in `ShadowTreeManager::updateShadowTree` on iOS |
 <!-- upstream:end -->
