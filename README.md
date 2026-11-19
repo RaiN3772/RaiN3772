@@ -109,7 +109,7 @@ Every project I take on runs on the same engineering platform: the standards, to
 
 ## By the numbers
 
-<img src="assets/impact.svg" width="100%" alt="5,666 commits since 2023 across 40 repositories. 2,662 contributions and 233 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,429, Abu Dayya Farm 676, Abu Dayya Butcher 134, ARC 502, FROG 221, Rita 608. Languages: TypeScript 63.8%, Dart 24.4%, CSS 4.9%, JavaScript 2.8%.">
+<img src="assets/impact.svg" width="100%" alt="6,045 commits since 2023 across 42 repositories. 2,797 contributions and 235 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,765, Abu Dayya Farm 681, Abu Dayya Butcher 155, ARC 504, FROG 221, Rita 621. Languages: TypeScript 63.6%, Dart 24.6%, CSS 4.9%, JavaScript 2.9%.">
 
 ## Toolbox
 
@@ -124,21 +124,27 @@ I fix the libraries my products run on.
 
 | Project | Change |
 |---|---|
-| [**Expo**](https://github.com/expo/expo/pull/45096) · ⭐ 53.6k | Run the notifications foreground handler on the main thread, fixing an iOS 16 crash |
-| [**Expo**](https://github.com/expo/expo/pull/51955) · ⭐ 53.6k | Keep tab content mounted when `hidden` changes on Android (expo-router native tabs) |
+| [**Expo**](https://github.com/expo/expo/pull/45096) · ⭐ 53.7k | Run the notifications foreground handler on the main thread, fixing an iOS 16 crash |
+| [**Expo**](https://github.com/expo/expo/pull/51955) · ⭐ 53.7k | Keep tab content mounted when `hidden` changes on Android (expo-router native tabs) |
+| [**Expo**](https://github.com/expo/expo/pull/53668) · ⭐ 53.7k | Guard `axisBehavior` on the iOS 27.1 SDK, so the dev launcher builds on Xcode 27 |
 | [**MMKV (Tencent)**](https://github.com/Tencent/MMKV/pull/1693) · ⭐ 18.8k | Fix `importFrom()` into an encrypted instance freeing memory it doesn't own |
 | [**React Native Keyboard Controller**](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1695) · ⭐ 3.8k | Reset the keyboard offset once the keyboard fully closes in `KeyboardChatScrollView` |
+| [**Argent**](https://github.com/software-mansion/argent/pull/2004) · ⭐ 3.2k | Start the Android launcher activity with the MAIN action and its launcher category |
+| [**Argent**](https://github.com/software-mansion/argent/pull/2006) · ⭐ 3.2k | Keep the children of a zero-area view on a scroll window's edge in automated flows |
+
+<sub>Plus 7 pull requests in review and 11 open bug reports in Expo, VisionCamera, React Native MMKV, Legend State, React Native Keyboard Controller and 4 more projects.</sub>
 
 **Crashes I tracked down that maintainers fixed**
 
 | Project | Bug |
 |---|---|
-| [**Expo**](https://github.com/expo/expo/issues/44032) · ⭐ 53.6k | iOS crash in `ModuleRegistry.post(event:)` from unsynchronized dictionary access |
-| [**Expo**](https://github.com/expo/expo/issues/46106) · ⭐ 53.6k | `JavaScriptPromise.init` force-try traps the app on iOS (expo-modules-jsi) |
-| [**HeroUI**](https://github.com/heroui-inc/heroui/issues/6445) · ⭐ 31.2k | Table corners and pagination arrows render wrong in right-to-left layouts |
+| [**Expo**](https://github.com/expo/expo/issues/44032) · ⭐ 53.7k | iOS crash in `ModuleRegistry.post(event:)` from unsynchronized dictionary access |
+| [**Expo**](https://github.com/expo/expo/issues/46106) · ⭐ 53.7k | `JavaScriptPromise.init` force-try traps the app on iOS (expo-modules-jsi) |
+| [**HeroUI**](https://github.com/heroui-inc/heroui/issues/6445) · ⭐ 31.3k | Table corners and pagination arrows render wrong in right-to-left layouts |
 | [**VisionCamera**](https://github.com/margelo/react-native-vision-camera/issues/3916) · ⭐ 9.7k | iOS 26 crash in `capturePhoto` |
 | [**VisionCamera**](https://github.com/margelo/react-native-vision-camera/issues/3773) · ⭐ 9.7k | Race-condition crash in `HybridCameraSession.start()` |
 | [**React Native Video**](https://github.com/TheWidlarzGroup/react-native-video/issues/4844) · ⭐ 7.8k | iOS crash: `AVPlayer.replaceCurrentItem` called from background threads |
+| [**Argent**](https://github.com/software-mansion/argent/issues/1642) · ⭐ 3.2k | iOS flows read a text field as empty because the view hierarchy hides its value |
 | [**Unistyles**](https://github.com/jpudysz/react-native-unistyles/issues/1169) · ⭐ 3k | Generated header name collides with other Nitro modules and breaks iOS builds |
 | [**Unistyles**](https://github.com/jpudysz/react-native-unistyles/issues/1179) · ⭐ 3k | Reproducible heap corruption in `ShadowTreeManager::updateShadowTree` on iOS |
 <!-- upstream:end -->
