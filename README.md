@@ -109,7 +109,7 @@ Every project I take on runs on the same engineering platform: the standards, to
 
 ## By the numbers
 
-<img src="assets/impact.svg" width="100%" alt="6,045 commits since 2023 across 42 repositories. 2,797 contributions and 235 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,765, Abu Dayya Farm 681, Abu Dayya Butcher 155, ARC 504, FROG 221, Rita 621. Languages: TypeScript 63.6%, Dart 24.6%, CSS 4.9%, JavaScript 2.9%.">
+<img src="assets/impact.svg" width="100%" alt="6,133 commits since 2023 across 42 repositories. 2,821 contributions and 236 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 3,850, Abu Dayya Farm 684, Abu Dayya Butcher 155, ARC 504, FROG 221, Rita 621. Languages: TypeScript 63.6%, Dart 24.6%, CSS 4.9%, JavaScript 2.9%.">
 
 ## Toolbox
 
@@ -131,8 +131,9 @@ I fix the libraries my products run on.
 | [**React Native Keyboard Controller**](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1695) · ⭐ 3.8k | Reset the keyboard offset once the keyboard fully closes in `KeyboardChatScrollView` |
 | [**Argent**](https://github.com/software-mansion/argent/pull/2004) · ⭐ 3.2k | Start the Android launcher activity with the MAIN action and its launcher category |
 | [**Argent**](https://github.com/software-mansion/argent/pull/2006) · ⭐ 3.2k | Keep the children of a zero-area view on a scroll window's edge in automated flows |
+| [**Argent**](https://github.com/software-mansion/argent/pull/2041) · ⭐ 3.2k | Never bind a device ID that Metro doesn't list to the only other connected device |
 
-<sub>Plus 7 pull requests in review and 11 open bug reports in Expo, VisionCamera, React Native MMKV, Legend State, React Native Keyboard Controller and 4 more projects.</sub>
+<sub>Plus 6 pull requests in review and 10 open bug reports in Expo, VisionCamera, React Native MMKV, Legend State, React Native Keyboard Controller and 4 more projects.</sub>
 
 **Crashes I tracked down that maintainers fixed**
 
