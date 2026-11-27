@@ -109,7 +109,7 @@ Every project I take on runs on the same engineering platform: the standards, to
 
 ## By the numbers
 
-<img src="assets/impact.svg" width="100%" alt="6,964 commits since 2023 across 43 repositories. 3,553 contributions and 237 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 4,011, Abu Dayya Farm 684, Abu Dayya Butcher 155, ARC 504, FROG 425, Rita 641. Languages: TypeScript 62.6%, Dart 26.1%, CSS 4.6%, JavaScript 2.7%.">
+<img src="assets/impact.svg" width="100%" alt="7,436 commits since 2023 across 43 repositories. 3,789 contributions and 238 active days in the last 12 months. 7 products shipped, 2 apps on iOS and Android. Commits by product: Qutrek 4,274, Abu Dayya Farm 684, Abu Dayya Butcher 155, ARC 504, FROG 425, Rita 641. Languages: TypeScript 62.7%, Dart 26.2%, CSS 4.4%, JavaScript 2.7%.">
 
 ## Toolbox
 
@@ -129,12 +129,12 @@ I fix the libraries my products run on.
 | [**Expo**](https://github.com/expo/expo/pull/53668) · ⭐ 53.8k | Guard `axisBehavior` on the iOS 27.1 SDK, so the dev launcher builds on Xcode 27 |
 | [**MMKV (Tencent)**](https://github.com/Tencent/MMKV/pull/1693) · ⭐ 18.8k | Fix `importFrom()` into an encrypted instance freeing memory it doesn't own |
 | [**React Native Keyboard Controller**](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1695) · ⭐ 3.8k | Reset the keyboard offset once the keyboard fully closes in `KeyboardChatScrollView` |
-| [**Argent**](https://github.com/software-mansion/argent/pull/2004) · ⭐ 3.2k | Start the Android launcher activity with the MAIN action and its launcher category |
-| [**Argent**](https://github.com/software-mansion/argent/pull/2006) · ⭐ 3.2k | Keep the children of a zero-area view on a scroll window's edge in automated flows |
-| [**Argent**](https://github.com/software-mansion/argent/pull/2041) · ⭐ 3.2k | Never bind a device ID that Metro doesn't list to the only other connected device |
+| [**Argent**](https://github.com/software-mansion/argent/pull/2004) · ⭐ 3.3k | Start the Android launcher activity with the MAIN action and its launcher category |
+| [**Argent**](https://github.com/software-mansion/argent/pull/2006) · ⭐ 3.3k | Keep the children of a zero-area view on a scroll window's edge in automated flows |
+| [**Argent**](https://github.com/software-mansion/argent/pull/2041) · ⭐ 3.3k | Never bind a device ID that Metro doesn't list to the only other connected device |
 | [**op-sqlite**](https://github.com/OP-Engineering/op-sqlite/pull/484) · ⭐ 1.1k | Delete a database's `-wal`, `-shm` and `-journal` files in `delete()` |
 
-<sub>Plus 5 pull requests in review and 6 open bug reports in Expo, Reanimated, VisionCamera, React Native MMKV, Legend State and 2 more projects.</sub>
+<sub>Plus 6 pull requests in review and 6 open bug reports in Expo, Reanimated, VisionCamera, React Native MMKV, Legend State and 2 more projects.</sub>
 
 **Crashes I tracked down that maintainers fixed**
 
@@ -146,8 +146,8 @@ I fix the libraries my products run on.
 | [**VisionCamera**](https://github.com/margelo/react-native-vision-camera/issues/3916) · ⭐ 9.7k | iOS 26 crash in `capturePhoto` |
 | [**VisionCamera**](https://github.com/margelo/react-native-vision-camera/issues/3773) · ⭐ 9.7k | Race-condition crash in `HybridCameraSession.start()` |
 | [**React Native Video**](https://github.com/TheWidlarzGroup/react-native-video/issues/4844) · ⭐ 7.8k | iOS crash: `AVPlayer.replaceCurrentItem` called from background threads |
-| [**Argent**](https://github.com/software-mansion/argent/issues/1642) · ⭐ 3.2k | iOS flows read a text field as empty because the view hierarchy hides its value |
-| [**Argent**](https://github.com/software-mansion/argent/issues/2027) · ⭐ 3.2k | Screenshots from a physical Android phone on Linux froze after the first second (H.264 decoder flushed mid-stream) |
+| [**Argent**](https://github.com/software-mansion/argent/issues/1642) · ⭐ 3.3k | iOS flows read a text field as empty because the view hierarchy hides its value |
+| [**Argent**](https://github.com/software-mansion/argent/issues/2027) · ⭐ 3.3k | Screenshots from a physical Android phone on Linux froze after the first second (H.264 decoder flushed mid-stream) |
 | [**Unistyles**](https://github.com/jpudysz/react-native-unistyles/issues/1169) · ⭐ 3k | Generated header name collides with other Nitro modules and breaks iOS builds |
 | [**Unistyles**](https://github.com/jpudysz/react-native-unistyles/issues/1179) · ⭐ 3k | Reproducible heap corruption in `ShadowTreeManager::updateShadowTree` on iOS |
 <!-- upstream:end -->
